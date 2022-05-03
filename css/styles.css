@@ -234,3 +234,92 @@
     padding: 60px;
     color: white;
 }
+
+.row-aboutus{
+    justify-content: center;
+}
+
+.col-aboutus{
+    flex-basis: calc(100% / 2);
+    padding: 10px;
+}
+
+
+.card-aboutus{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: start;
+}
+
+.position-virgolette{
+    position: relative;
+}
+
+.fa-aboutus{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: var(--color-primary);
+    font-size: 60px;
+}
+
+.color-aboutus{
+    color: var(--color-primary);
+}
+
+.botton-aboutus{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    border: solid 2px var(--color-primary);
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+
+.fa-bottom{
+    background-color: white;
+    padding: 2px;
+}
+
+.bottom-for-aboutus{
+    padding: 0;
+    border: none;
+    padding-left: 10px;
+    border: none;
+    padding: 0
+    
+}
+
+.row-free{
+    justify-content: center;
+}
+
+.text-yellow{
+    color: rgb(255, 200, 0);
+}
+
+.text-free{
+    color: white;
+    line-height: 45px;
+}
+
+.bottom-free{
+    padding: 10px;
+    background-color: white;
+    color: var(--color-primary);
+}
+
+.footer-color{
+    background-color: rgb(25, 25, 25);
+}
+
+.space-footer{
+    padding-bottom: 40px;
+}
+.text-footer{
+    padding: 0 250px;
+    color: rgb(252, 252, 252);
+    
+}
