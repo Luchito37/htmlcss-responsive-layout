@@ -29,6 +29,9 @@
     width: 60px;
 }
 
+.display-none{
+    display: none;
+}
 .link-for-client{
     text-decoration: none;
     color: white;
