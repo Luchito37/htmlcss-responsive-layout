@@ -160,6 +160,12 @@
     font-size: 10px;
 }
 
+.title-white{
+    font-size: 25px;
+    padding-bottom: 15px;
+    color: white;
+}
+
 .space-around{
     padding-top: 10px;
 }
@@ -244,6 +250,9 @@
     padding: 10px;
 }
 
+.title-us{
+    font-size: 40px;
+}
 
 .card-aboutus{
     background-color: white;
@@ -323,3 +332,79 @@
     color: rgb(252, 252, 252);
     
 }
+
+
+@media screen and (max-width: 780px) {
+    .first-row-section{
+        flex-direction: column
+    }
+
+    .row-planning{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-planning1{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .big-photo1{
+        max-width: 80%;
+    }
+
+    .title-white{
+        font-size: 50px;;
+    }
+
+    .img-planning2{
+        max-width: 100%;
+    }
+}
+
+
+@media screen and ( max-width: 600px) {
+    .card-testimonials{
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+    .card-sm-purple{
+        background-color: var(--color-primary);
+    }
+    .row-benefits{
+        flex-direction: column;
+    }
+
+    .title-us{
+        font-size: 30px;
+    }
+
+    .row-aboutus{
+        flex-direction: column;
+    }
+    .color-aboutus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .text-footer{
+        padding: 0 40px;
+    }
+
+    .display-none{
+        display: inline-block;
+        color: white;
+    }
+
+    .link-for-client{
+        display: none;
+        
+    }
+    .link-for-client-none{
+        display: none;
+    }
+}
+
+
